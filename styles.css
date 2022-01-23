@@ -1,5 +1,3 @@
-
-  
 body {
     margin: 0;
     font-family: system-ui, sans-serif;
@@ -52,3 +50,11 @@ form > * + * {
 }
 
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    
+
+}
