@@ -58,3 +58,22 @@ form > * + * {
     
 
 }
+
+.team-container {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2rem;
+    
+}
+
+.team {
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid grey;
+    max-width: 30rem;
+    padding: 1em;
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
