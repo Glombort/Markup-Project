@@ -11,7 +11,33 @@
 <body>
   <header-1></header-1>
   <main>
-    <h1>Contact Us</h1>
+
+    <h1>Contact Us</h1>    
+    
+    <form id="contact-form" class="center width-sm">
+      <p>Feel free to contact us with any queries you may have.</p>
+      <p class="required">Required items are marked with a star </p>
+
+      <label for="name" class="required">Name</label>
+      <input id="name" name="name" type="text" inputmode="latin-name" aria-required="true" required />
+
+      <label for="company-name" class="required">Company Name</label>
+      <input id="company-name" name="company-name" type="text" inputmode="latin-name" aria-required="true" required />
+
+      <label for="email" class="required">Email</label>
+      <input id="email" name="email" type="email" inputmode="email" aria-required="true" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message"></textarea>
+      <div class="consent">
+        <input id="consent" name="consent" type="checkbox" />
+        <label for="consent">Check box if you consent to recieving updates from us.</label>
+      </div>
+      <button type="submit" id="submit-btn">Send Email</button>
+    </form>
+
+
+
   </main>
   <script src="script.js"></script>
 </body>
