@@ -3,7 +3,7 @@ body {
     font-family: system-ui, sans-serif;
   }
 
-.center {
+h1, .center {
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
@@ -76,4 +76,11 @@ form > * + * {
     margin-left: auto;
     margin-right: auto;
     
+}
+
+.about-text {
+    justify-content: center;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
 }
