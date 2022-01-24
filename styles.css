@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family: system-ui, sans-serif;
+    background-image: url(background-image.jpg);
+    background-size: cover;
   }
 
 h1, .center {
@@ -55,6 +57,9 @@ form > * + * {
     flex-direction: row;
     justify-content: space-evenly;
     list-style: none;
+    background-color: #5cDB95;
+    padding: 3em;
+    margin: 0;
     
 
 }
