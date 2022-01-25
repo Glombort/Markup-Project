@@ -1,13 +1,21 @@
-body {
+body, html {
     margin: 0;
     font-family: system-ui, sans-serif;
+    background-image: url(background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%
   }
 
-.center {
+h1, .center {
     max-width: 40rem;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
   }
+
+h1 {
+    color: #F96900;
+}
 
 .width-sm {
 max-width: 25rem;
@@ -55,6 +63,9 @@ form > * + * {
     flex-direction: row;
     justify-content: space-evenly;
     list-style: none;
+    background-color: #A8DCD1;
+    padding: 3em;
+    margin: 0;
     
 
 }
@@ -69,11 +80,19 @@ form > * + * {
 .team {
     display: flex;
     flex-flow: row wrap;
-    border: 1px solid grey;
     max-width: 30rem;
     padding: 1em;
     margin: 2rem;
     margin-left: auto;
     margin-right: auto;
-    
+    background-color: rgba(0,0,0,0.5);
+    color: rgb(253, 252, 251);
+}
+
+.about-text {
+    justify-content: center;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
 }
