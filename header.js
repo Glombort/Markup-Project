@@ -6,7 +6,7 @@ class Header extends HTMLElement {
         <ul class="navbar">
           <li><a href="index.html">Home</a></li>
           <li><a href="Meet-The-Team.html">Meet The Team</a></li>
-          <li><a href="Contact.html">Contact Us</li>
+          <li><a href="Contact.html">Contact Us</a></li>
         </ul>
         </nav>
       </header>
