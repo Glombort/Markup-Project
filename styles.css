@@ -78,10 +78,28 @@ button:focus, button:hover {
     flex-direction: row;
     justify-content: space-evenly;
     list-style: none;
-    background-color: #A8DCD1;
-    padding: 3em;
+    background-color: #a8dcd1;
+    padding: 3rem;
     margin: 0;
     
+
+}
+
+.navbar a {
+    color: #163B07;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+.navbar a:hover, .navbar a:focus {
+color: #750518;
+}
+
+ .logo-image{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
 
 }
 

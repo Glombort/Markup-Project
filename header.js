@@ -3,10 +3,12 @@ class Header extends HTMLElement {
         this.innerHTML = `
         <header>
         <nav>
+
         <ul class="navbar">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Meet-The-Team.html">Meet The Team</a></li>
-          <li><a href="Contact.html">Contact Us</a></li>
+          <li><a href="index.html" ><div class="logo-image"><img src="./logo.svg" alt="company logo"/></div></a></li>
+          <li><a href="index.html"><b>Home</b></a></li>
+          <li><a href="Meet-The-Team.html"><b>Meet The Team</b></a></li>
+          <li><a href="Contact.html"><b>Contact Us</b></a></li>
         </ul>
         </nav>
       </header>
