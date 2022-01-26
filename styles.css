@@ -25,7 +25,8 @@ max-width: 60rem;
 }
 
 form {
-    margin-top: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .required:after {
@@ -49,6 +50,20 @@ form > * + * {
     margin-top: 0.5rem;
     width: 95%;
     align-content: center;
+}
+
+input, textarea {
+    color: rgb(0,0,0);
+    background-color: rgb(115,165,206);
+}
+
+button {
+    background-color: rgb(245, 255, 250);
+    color: rgb(0,0,0);
+}
+
+button:focus, button:hover {
+    background-color: rgb(245, 255, 250, 0.75);
 }
 
 .consent {
